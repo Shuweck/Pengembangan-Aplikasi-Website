@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Raya Lucaria Academy</title>
+    </head>
+    <body>
+        <h1>Apa yang dapat dilakukan Javascript</h1>
+        <img id ="myImage" onclick="changeimage ()" src="leyndell-royal-capital.gif" width="100%" height="100%">
+        <p id = >Ketik gambar berikut untuk merubah konten.</p>
+        <script>
+            function changeimage () {
+                var image = document.getElementById('myImage');
+                if (image.src.match("leyndell-royal-capital.gif")) {
+                    image.src = "liurnia-raya-lucaria.gif";
+                } else {
+                    image.src = "liurnia-raya-lucaria.gif";
+                }
+            }
+        </script>
+    </body>
+</html>
