@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(59, 2, 2);
+    background-image: url(./ff15watercity.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+h1{
+    text-align: center;
+    color: rgb(6, 48, 21);
+}
+h2{
+    text-align: center;
+    color: rgb(45, 121, 68);
+}
+h3{
+    text-align: center;
+    color: rgb(168, 195, 103);
+}
+p{
+    text-align: center;
+    color: rgb(225, 36, 36);
+    letter-spacing: normal;
+}
